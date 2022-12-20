@@ -1,0 +1,48 @@
+.navbar{
+    background-color: rgb(185, 185, 185);
+    height: 10vh;
+}
+
+.content{
+    background-color: rgb(225, 225, 225);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    background-color: white;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h2{
+    margin-bottom: 20px;
+}
+
+#nilai{
+    width: 40px;
+}
+
+h3{
+    margin-top: 90px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
